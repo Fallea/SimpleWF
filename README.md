@@ -8,6 +8,8 @@ WFEntity 实体 执行具体操作 基类
 
 
 样例：
+
+
         WorkFlow wf = new WorkFlow("工作流1");//实例化工作流1
         wf.StartWith<Step1>()//以Step1为起点
             .Then<Step2>()//然后执行Step2
